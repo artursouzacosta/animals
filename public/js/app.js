@@ -38142,7 +38142,19 @@ var render = function() {
             "li",
             { staticClass: "nav-item" },
             [
-              _c("router-link", { staticClass: "nav-link", attrs: { to: "/" } })
+              _c(
+                "router-link",
+                { staticClass: "nav-link", attrs: { to: "/" } },
+                [
+                  _c("img", {
+                    staticClass: "logo",
+                    attrs: {
+                      src:
+                        "https://static.wixstatic.com/media/3afb23_300e4fc81dfe44a0b23801a030cfddfa~mv2_d_8945_2320_s_2.png/v1/fill/w_189,h_48,al_c,q_80,usm_0.66_1.00_0.01/3afb23_300e4fc81dfe44a0b23801a030cfddfa~mv2_d_8945_2320_s_2.webp"
+                    }
+                  })
+                ]
+              )
             ],
             1
           ),
