@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.logo {
+	width: 100px
+}
+
+.navbar {
+	border-bottom: 1px solid $app_primary !important;
+}
+
+a.btn.btn-outline-primary {
+	color: $app_primary;
+	border-color: $app_primary;
+}
